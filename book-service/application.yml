@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+eureka:
+  client:
+    fetch-registry: true
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bookdb
+      database: bookdb
