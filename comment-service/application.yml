@@ -5,15 +5,15 @@ spring:
       database: commentdb
 #      port: 27018
 migration:
-  changelogPackage: ru.otus.spring.hw18.comment_service.migration.changelog
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: metrics, logfile, health
-#  endpoint:
-#    health:
-#      show-details: always
-#logging:
-#  file:
-#    name: hw16-actuator/logs/book_info_logs
+    #  changelogPackage: ru.otus.spring.hw18.comment_service.migration.changelog
+    ##management:
+    ##  endpoints:
+    ##    web:
+    ##      exposure:
+    ##        include: metrics, logfile, health
+    ##  endpoint:
+    ##    health:
+    ##      show-details: always
+    ##logging:
+  ##  file:
+  ##    name: hw16-actuator/logs/book_info_logs
